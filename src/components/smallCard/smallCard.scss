@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+@media screen and (max-width: 375px) {
+  .smallCardsContainer {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .smallCard {
+      width: 335px;
+      height: 273px;
+      margin-top: 20px;
+
+      .imageContainer {
+        position: relative;
+        .AddToFavorite {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          background-color: white;
+          margin: 0px 11px 11px 0px;
+          box-shadow: 0 3px 6px #00000029;
+          position: absolute;
+          right: 0px;
+          bottom: 5.5px;
+        }
+      }
+      .propietyImage {
+        width: 335px;
+        height: 180px;
+        border-radius: 5px;
+      }
+      .mainInformation {
+        .priceAndPropietyContainer {
+          display: flex;
+          justify-content: space-between;
+          height: 21px;
+          .propietyType {
+            color: #6d7686;
+            font-size: 15px;
+            text-transform: capitalize;
+          }
+          .propietyPrice {
+            color: #2a2e43;
+            font-size: 16px;
+            font-weight: bold;
+            height: 23px;
+          }
+        }
+        .propietyAddress {
+          color: #2a2e43;
+          height: 25px;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .propietyStratum {
+          height: 23px;
+          color: #2a2e43;
+          font-size: 16px;
+        }
+        .propietyLocation {
+          height: 21px;
+          color: #6d7686;
+          font-size: 15px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
