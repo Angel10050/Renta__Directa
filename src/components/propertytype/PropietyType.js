@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./propietyType.css";
+import "./propietyType.scss";
 
 const PropietyType = ({ image, propiety }) => {
   return (
