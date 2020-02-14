@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+@media screen and (max-width: 375px) {
+  .mainMenuContainer {
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: white;
+    bottom: 0px;
+    .menu {
+      background-color: white;
+      display: flex;
+      justify-content: space-evenly;
+      height: 80px;
+      .imageContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        .linkText {
+          color: #2a2e43;
+          font-size: 12px;
+          font-weight: 500;
+          font-family: "Poppins", sans-serif;
+        }
+      }
+    }
+  }
+}
