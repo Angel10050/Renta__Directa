@@ -14,18 +14,25 @@ import office from "./img/Mask Group 35.svg";
 import categories from "./img/Mask Group 41.svg";
 /* Esto cambiaria segun el componete en que se vaya a importar*/
 
+import SmallCard from "./components/smallCard/SmallCard";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <MainInput />
+        <div className="mainContainerInput">
+          <MainInput />
+        </div>
+
         <MainMenu />
-        <PropietyType image={house} propiety="Casa" />
-        <PropietyType image={apartment} propiety="Apartamento" />
-        <PropietyType image={local} propiety="LocalComercial" />
-        <PropietyType image={office} propiety="Oficina" />
-        <PropietyType image={categories} propiety="Categorias" />
+        <div className="categoryContainer">
+          <PropietyType image={house} propiety="Casa" />
+          <PropietyType image={apartment} propiety="Apartamento" />
+          <PropietyType image={local} propiety="LocalComercial" />
+          <PropietyType image={office} propiety="Oficina" />
+          <PropietyType image={categories} propiety="Categorias" />
+        </div>
+        <SmallCard />
       </div>
     );
   }

@@ -1,0 +1,8 @@
+.categoryContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mainContainerInput {
+  display: flex;
+  justify-content: center;
+}
