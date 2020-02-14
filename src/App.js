@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import "./App.css";
+import MainInput from "./components/mainInput/MainInput";
 
 import MainMenu from "./components/mainMenu/MainMenu";
 import PropietyType from "./components/propertytype/PropietyType";
@@ -18,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <MainInput />
         <MainMenu />
         <PropietyType image={house} propiety="Casa" />
         <PropietyType image={apartment} propiety="Apartamento" />
